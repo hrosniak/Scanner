@@ -1,15 +1,17 @@
 import java.util.Scanner;
+/* operatory bitowe
+0 false i true
 
+& iloczyn bitowy
+| suma bitowa
+^ XOR eXclusive OR
+x << 1 przesunięcie w lewo o 1
+x >> 2 przesunięcie w prawo o 2
+
+~ negacja bitowa
+ */
 public class Main {
     public static void main(String[] args) {
-        int a = 5,
-                b = 5,
-                c = 7;
 
-        if (!(a == b) && c > a)
-            System.out.println("tak");
-        else {
-            System.out.println("No");
-        }
     }
 }
