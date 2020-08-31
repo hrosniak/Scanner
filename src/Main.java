@@ -4,20 +4,19 @@ Instrukcje warunkowe
  */
 public class Main {
     public static void main(String[] args) {
-       int a = 10;
-       switch(a){
-           case 50:
-               System.out.println("a jest równe 50");
-               break;
 
-           case 100:
-               System.out.println("a jest rowne 100");
-               break;
+    /*    int x = 5;
 
-           default:
-               System.out.println("a nie jest równe ani 50 ani 100 jest równe " + a);
-       }
+        if(x % 2 == 0){
+            System.out.println("parzysta");
+        }else
+            System.out.println("nieparzysta");
 
+     */
+        int x = 4;
+   String czyParzysta = x % 2 == 0 ? "parzysta" : "nieparzysta";
+           System.out.println(czyParzysta);
     }
 }
+
 
